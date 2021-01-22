@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/sezzle_calc.css">
+</head>
+
+<!--Body-->
+<body style="background-color: rgb(68, 214, 170);">
+
+<!--Container with calculator-->
+    <section class="container">
+        <h1 style=" text-align:center; font-size:50px; color: #630066" >Calculator</h1>
+        <div class="calc">
+<!--Created labels to allow users to input numerical values in white space-->
+            <div class="input">
+                <input type="input" name="input1" id="input1" placeholder="Input one" value=0 onfocus="this.value=''">
+                <label for="input1" class="input1-label"> Input One </label>
+            </div>
+<!--Radio options used to describe related options such as mathematical functions in this case.-->
+            <div class="actions">
+                <input type="radio" name="action" value="*"> &#8727;
+                <input type="radio" name="action" value="/"> &#8725;
+                <input type="radio" name="action" value=+> +
+                <input type="radio" name="action" value=-> &minus; </div>
+                <div class="input">
+                    <input type="input" name="input2" id="input2" placeholder="Input two" value=0 onfocus="this.value=''">
+                    <label for="input2" class="input2-label"> Input Two </label>
+                </div>
+<!--Onclick used to run script when users clicks 'Calculate' button-->
+            <button id="btn" onclick=getAnswer()>Calculate</button>
+            <div class="input">
+                <input type="input" name="answer" id="answer" placeholder="Answer">
+                <label for="answer" class="answer-label"> Answer </label>
+            </div>
+        </div>
+        <h3 style="color: #630066; font-size:20px"> User Data </h3>
+<!--'ul id' to create bulleted unordered list consisting of user answers-->
+        <ul id="answersList"></ul>
+    </section>
+<!--script tag used to embed JavaScript code-->
+    <script src="/sezzle_calc.js"></script>
+
+</body>
+
+</html>
