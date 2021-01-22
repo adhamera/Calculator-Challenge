@@ -10,7 +10,7 @@
 
 #### Functionality
 
-* This is a calculator app that will allow multiple users to input numerical values and use arithmetic operations: x / + -  to generate calculations. Users can type in any numerical value for 'input one' and any numerical value greater than 0 for 'input two'. Next they can select a basic arithmetic operation and click 'calculate' to generate their calculation. Calculations will be logged below the calculator and visible to other users. Unfortunately, I was unable to limit visible calculations to only the last 10. 
+* This is a calculator app that will allow multiple users to input numerical values and use arithmetic operations: x / + -  to generate calculations. Users can type in any numerical value for 'input one' and any numerical value greater than 0 for 'input two'. Next, they can select a basic arithmetic operation and click 'calculate' to generate their calculation. Calculations will be logged below the calculator and visible to other users. Unfortunately, I was unable to limit visible calculations to only the last 10. 
 
 #### Start the application on your local server
 
