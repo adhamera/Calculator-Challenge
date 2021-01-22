@@ -23,4 +23,5 @@ I was unable to get app deployed on Heroku. You may type the following in your c
 * CSS 3
 * Bootstrap 4
 * JavaScript
+* Socket.io
 
